@@ -1,0 +1,225 @@
+
+body{
+    background: #dfdaf8;
+    font-family: 'Lexend', sans-serif;
+}
+
+section.awSlider .carousel{
+    display:table;
+    z-index:2;
+    -moz-box-shadow: 0 0 4px #444;
+      -webkit-box-shadow: 0 0 4px #444;
+      box-shadow: 0 0 15px rgba(1,1,1,.5);
+  }
+  
+  section.awSlider{
+    margin:30px auto;
+    padding:30px;
+    position:relative;
+    display:table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  section.awSlider:hover > img{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity:1;
+  }
+  
+  section.awSlider img{
+     pointer-events: none;
+     width: 20%;
+  }
+  
+  section.awSlider > img{
+    position:absolute;
+    top:30px;
+    z-index:1;
+    transition:all .3s;
+    filter: blur(1.8vw);
+    -webkit-filter: blur(2vw);
+    -moz-filter: blur(2vw); 
+    -o-filter: blur(2vw); 
+    -ms-filter: blur(2vw);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity:.5;
+  }
+
+  .kotakfuter {
+    border-radius: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+.bg-secondary {
+    background-color: #2b2354 !important;
+    }
+    .copyright {
+    background-color: #2b2354;
+    }
+    .bg-primary {
+    background-color: #c651e6 !important;
+    }
+    nav{
+    font-weight: 700;
+    }
+    .img-card{
+    height: 18vw;
+    object-fit: cover;
+    }
+
+.container .logo img{
+    width: 150px;
+}
+
+ .promobanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    padding-top: 7vh;
+    
+ }
+
+.promobanner img{
+    width: 100%;
+    border-radius: 2rem;
+    
+}
+
+.content-text{
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-bottom: 6%;
+}
+
+.content-text .textbox{
+    position: relative;
+    max-width: 600px;
+
+
+}
+.textbox h2{
+    font-weight:800;
+    
+}
+.textbox h2 span{
+    color:#c651e6;
+    font-size: 1.2em;
+}
+
+.content-text .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #c651e6;
+    color: #dfdaf8;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content-text .textbox img{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    -ms-grid-row-align: end;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .content-text .textbox{
+        position: relative;
+        width: 400px;
+        font-size: small;
+    
+    }
+    .textbox h2{
+        font-weight:800;
+        font-size: large;
+        
+    }
+    .textbox h2 span{
+        color:#2b2354;
+        
+    }
+
+    .content-text .textbox a{
+        display: inline-block;
+        margin-top: 5px;
+        padding: 8px 12px;
+        background: #c651e6;
+        color: #dfdaf8;
+        border-radius: 40px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-size: small;
+    }
+  }
+
+
+
+  .profile-card-5{
+    margin-top:50px;
+    border-radius:20px;
+    text-decoration: none;
+}
+.profile-card-5 .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card-5 .card-img-block {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+    
+    font-family: Helvetica;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#4E5E30;
+    border-color:#4E5E30;
+}
+
+.keranjang {
+    padding-bottom: 10%
+}
+
+

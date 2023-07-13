@@ -1,0 +1,47 @@
+.copyright {
+    background-color: #2b2354;
+    }
+    .fixed {
+    -ms-flex: 0 0 250px;
+    flex: 0 0 250px;
+    }
+    .content-grey {
+    background-color: #f8f9fc;
+    }
+    hr {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    }
+    .img-profile {
+    height: 2rem;
+    width: 2rem;
+    }
+    .profile-font {
+    color: #858796 !important;
+    font-size: 80%;
+    font-weight: 400;
+    }
+    .card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    }
+
+    .admin {
+        background-color: #2b2354;
+    }
+
+    .pencet {
+        background-color: #c651e6;
+        color: white;
+    }
+
+    footer{
+        background-color: #2b2354
+    
+    }
+
+    .futeradmin{
+        background-color: #c651e6;
+        border-radius: 3vh;
+    }
+    
